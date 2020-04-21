@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="css/menu.css">
     <!-- TITLE -->
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
-    <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/9a34e91c28.js" crossorigin="anonymous"></script>
 </head>
@@ -30,7 +28,7 @@
         </ul>
         <!-- Hamburger menu css : default display value is none -->
         <div class="menu-wrap">
-            <input type="checkbox" class="toggler">
+            <input type="checkbox" class="toggler" aria-label="toggle navigation">
             <div class="hamburger">
                 <div></div>
             </div>
@@ -56,8 +54,8 @@
                 Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.
             </p>
 
-            <form action="">
-                <input type="text" placeholder="Enter your email...">
+            <form action="index.html" method="post">
+                <input type="text" placeholder="Enter your email..." aria-label="E-mail">
                 <button class="btn">Get Started</button>
             </form>
         </div>
@@ -101,8 +99,8 @@
                 It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
             </p>
         </div>
-        <form action="">
-            <input type="text" placeholder="email@example.com">
+        <form action="index.html" method="post">
+            <input type="text" placeholder="email@example.com" aria-label="email for subscription">
             <button class="btn">Get Started For Free </button>
         </form>
     </div>
